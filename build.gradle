@@ -4,7 +4,6 @@ plugins {
 apply plugin: 'java-library'
 apply plugin: 'idea'
 apply plugin: 'eclipse'
-apply plugin: 'application'
 apply plugin: 'war'
 
 
@@ -22,9 +21,6 @@ repositories {
 		url "https://plugins.gradle.org/m2/"
 	  }
 }
-
-
-
 
 dependencies {   
     
